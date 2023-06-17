@@ -1,0 +1,273 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: black;
+
+}
+.container::before{
+    content: "";
+    background-image: url(netflixbackground.webp);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    z-index: -1;
+    
+}
+.container .navbar{
+    width: 100px;
+    display: flex;
+}
+.container .navbar .navleft{
+height: 100%;
+display: flex;
+float: left;
+}
+.container .navbar .navleft img{
+    height: 70px;
+    position: absolute;
+    left: 35px;
+    margin-top: 30px;
+}
+
+.container .navbar .navright{
+    display: flex;
+    float: right;
+    position: absolute;
+    right: 50px;
+    margin-top: 30px;
+    
+}
+.container .navbar .navright .language{
+ margin: auto;
+ font-size: 20px;
+ padding: 10px 15px;
+ color: white;
+ background: none;
+ cursor: pointer;
+ margin-right: 15px;
+ border-radius: 7px;
+}
+.container .navbar .navright button {
+    background-color: brown;
+    margin: auto;
+    font-size: 20px;
+    padding: 10px 15px;
+    
+    font-weight: 20px;
+    padding: 7px 17px;
+    background-color: rgb(224, 30, 30);
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+.container .navbar .navright button a{
+    text-decoration: none;
+    color: white;
+}
+.container .navbar .navright button:hover{
+    background-color: darkred;
+}
+body main .sec1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body main .sec1 h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+body main .sec1 p{
+    display: flex;
+    font-size: 25px;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+body main .sec1 .title{
+   display: flex;
+   justify-content: center;
+}
+body main .sec1 .title input{
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    background: none;
+    margin-right: 5px;
+    padding: 6px;
+}
+body main .sec1 .title button{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(224, 30, 30);
+    outline: none;
+    border: none;
+    padding: 8px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+body main .sec2{
+    margin-top: 400px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+body main .sec2 h1{
+    font-size: 80px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+
+}
+body main .sec2 p{
+    font-size: 20px;
+    margin-bottom: 200px;
+    padding-left: 100px;
+}
+body main .sec2 .vedio{
+    padding-right: 100px;
+}
+
+
+
+body main .sec3{
+    margin-top: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+body main .sec3 h1{
+    padding-top: 100px;
+    font-size: 70px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+}
+body main .sec3 p{
+    font-size: 20px;
+    margin-bottom: 200px;
+    padding-left: 100px;
+}
+body main .sec3 .vedio{
+    padding-right: 100px;
+}
+body main .sec5{
+    margin-top: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body main .sec5 h1{
+    font-size: 80px;
+    padding-bottom: 20px;
+
+}
+body main .sec5 p{
+    font-size: 30px;
+    margin-bottom: 200px;
+}
+.secy .line{
+    background-color:gray; 
+    width: 100% ;
+    margin-top: 185px;
+    height: 3px;
+}
+.ques h1{
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-top: 80px;
+margin-bottom: 50px;
+font-size: 60px;
+}
+.que{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 50%;
+    margin: auto;
+    height: 140px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.que h2{
+    color: red;
+
+    margin-top: 20px;
+    
+}
+.que p{
+    font-size: medium;
+    color: aliceblue;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+body main .finally .fin{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+ }
+ body main .finally .fin input{
+     width: 400px;
+     height: 50px;
+     border-radius: 5px;
+     background: none;
+     margin-right: 5px;
+     padding: 6px;
+ }
+ body main .finally .fin button{
+     width: 150px;
+     height: 50px;
+     border-radius: 5px;
+     background-color: rgb(224, 30, 30);
+     outline: none;
+     border: none;
+     padding: 8px;
+     color: white;
+     font-size: 20px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .linkss {
+    display: flex;
+   margin-right: 400px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+   justify-content: space-around;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+ }
+ .linkss .last ul li{
+    margin-bottom: 15px;
+    
+    list-style: none;
+ }
+ .linkss .last ul li a{
+    color: rgba(255, 255, 255, 0.595);
+ }
+ .linkss .last .language{
+    background: black;
+    color: white;
+    padding: 5px;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+ }
+ .linkss .last .language:hover{
+    background-color: brown;
+    color: white;
+ }
+ .linkss .last p{
+    color:rgba(255, 255, 255, 0.595) ;
+ }
+ 
